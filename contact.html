@@ -65,15 +65,22 @@
     
    <!-- Add white line here -->
 
+     
       <h2 class = "contactMe"> Send an Email</h2>
 
       <!-- Making form interactive -->
       <form action="https://formsubmit.co/mateusz.peryt123@gmail.com" method="POST">
+
+        <!-- hide the captcha -->
         <input type="hidden" name="_captcha" value="false">
+
+        <!-- Get notification of new email -->
         <input type = "hidden" name="_subject" value="New Email from Your Website!">
-        <input type="email" name="email" placeholder="Email Address">
-         <p>Enter your message:</p>
-         <textarea></textarea> <br>
+
+        <!-- boxes and button for new email and new message -->
+        <input type="email" name="email" placeholder="Email Address" required>
+         <input type="text" name = "message" placeholder="Enter message here" required>
+         <br><br>
          <button type="submit">Send</button>
 
       </form>
