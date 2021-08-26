@@ -1,0 +1,88 @@
+/* Selectors choose type from HTML and then do stuff on it. */
+
+/* Class selector to change h1 colour  */
+.title {
+    color: #e1ad01;
+    font-weight: 300;
+
+}
+
+/* pseudoselector to change colour when hovering over text */
+h1:hover{
+    color:#fac101;
+}
+
+
+/* adding background colour */
+body{
+    background:	#36454F;
+    color: white;
+    text-align: center;
+    font-size:  1.10em;
+    font-family: "Droid Sans";
+}   
+
+/* changing height and width of the main image on main page */
+#mainImage{
+    max-height: 300px;
+    max-width: 60%;
+
+}
+
+#aboutMeImage{
+    float:right;
+    margin-right:50px;
+    max-height: 130px;
+    max-width: 20%;
+}
+
+#logos{
+    align-items: center;
+    margin-right: 20px;
+    max-height: 60px;
+    max-width: 7%;
+}
+
+/* putting table in the middle. */
+.tableClass{
+    color: white;
+    display: inline-block;
+}
+
+/* flex container so that the values are alongside each other (the top tab on page) */
+.tabs{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* changing things of the flex container. */
+.item{
+    text-decoration: none;
+    color: #e1ad01;
+    font-size: 25px;
+    text-align: center;
+
+    width: 150px;
+    margin: 20px;
+
+}
+
+.item:hover{
+    color:#fac101;
+}
+
+.CodeAbbey{
+    color:#e1ad01;
+    font-weight: 300;
+}
+
+.contactMe{
+    color:#e1ad01;
+    font-weight: 300;
+}
+
+.maps{
+    margin-top: 30px;
+   margin-left: 30px;
+}

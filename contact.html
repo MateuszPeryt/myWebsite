@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!--tells browser its a html type document-->
+
+<html> 
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"> <!-- linking css with HTML -->
+        <meta charset="utf-8"> <!-- type of unicode encoding -->
+        <meta name="viewport" content="width = device-width, initial-scale = 1">  <!-- for responsiveness on devices -->
+        <title> Mateusz Peryt Website  </title>     <!-- the title is displayed on tab -->
+
+    </head>
+
+    <body>
+        <h1 class = "title">Contact Information </h1> <!-- Creating class so can manipulate this section in .css file -->
+
+        <hr>    <!-- horizontal line -->
+
+        <!-- Flex container to create the top tab with different sub pages. -->
+        <div class = "tabs">
+            <a href="index.html"> <div class = "item"> Home</div> </a>
+            <a href="projects.html"><div class = "item">Projects</div></a>
+            <a href="extras.html"><div class = "item">Extras</div></a>
+            <a href="about.html"><div class = "item">About</div></a>
+            <a href="contact.html"><div class = "item">Contact</div></a>
+        </div>
+
+        <hr>
+
+        <p>
+            Welcome to my Contact Page. Here you will be able to find my information which includes instagram, snapchat, phone number, and email. Moreover, you will be able to send me a message by providing your name and email, and it will go directly to my inbox. I will try answer these as soon as I can. :)
+
+        </p>
+
+        <hr>
+
+        <p>
+            <img src="https://t4.ftcdn.net/jpg/03/90/11/51/360_F_390115184_pC62LQRe5VlME5w1I1XgUxm6TeKMlQ7Q.jpg" id="mainImage" border = "2" >    <!-- src = source of imgage (Get url) -->
+        </p>
+
+        <hr>
+
+      <h2 class = "CodeAbbey">Socials</h2>
+
+
+        <img src="  https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_7-snapchat-512.png" id = "logos">
+
+        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" id = "logos">
+
+        <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" id = "logos">
+
+        <img src="  https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Spotify-512.png" id = "logos">
+        
+        <img src="  https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" id = "logos">
+
+        <img src="   https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/whatsapp-512.png" id = "logos">
+
+        <img src="   https://cdn4.iconfinder.com/data/icons/social-media-2146/512/6_social-512.png" id = "logos">
+
+
+
+       
+        
+      
+      <hr>
+    
+   <!-- Add white line here -->
+
+      <h2 class = "contactMe"> Send an Email</h2>
+
+      <!-- Making form interactive -->
+      <form action="https://formsubmit.co/mateusz.peryt123@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type = "hidden" name="_subject" value="New Email from Your Website!">
+        <input type="email" name="email" placeholder="Email Address">
+         <p>Enter your message:</p>
+         <textarea></textarea> <br>
+         <button type="submit">Send</button>
+
+      </form>
+
+
+    </body>
+
+</html>
