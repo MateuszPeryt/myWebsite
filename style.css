@@ -1,12 +1,5 @@
 /* Selectors choose type from HTML and then do stuff on it. */
 
-/* Class selector to change h1 colour  */
-.title {
-    color: #e1ad01;
-    font-weight: 300;
-
-}
-
 /* pseudoselector to change colour when hovering over text */
 h1:hover{
     color:#fac101;
@@ -86,3 +79,27 @@ body{
     margin-top: 30px;
    margin-left: 30px;
 }
+
+
+/* .css for moving animation */
+.ml9 {
+    position: relative;
+    color: #e1ad01;
+    font-weight: 10;
+    font-size: 2em;
+  }
+  
+  .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
